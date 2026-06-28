@@ -2,7 +2,7 @@
 
 [English](README.md)
 
-`codex-plugin-restore-skill` 专门修复 Codex Desktop／CLI 中“已经安装过的插件突然不显示”的问题，包括插件商店、已安装列表、插件选择器或 `@` 提及列表缺失。它恢复的是有本地证据支持的完整原装插件集合，并非只处理 Chrome、Computer Use、Browser 等浏览器类插件。
+`codex-plugin-restore-skill` 专门修复 Codex Desktop／CLI 中“已经安装过的插件突然不显示”的问题，包括插件商店、已安装列表、插件选择器或 `@` 提及列表缺失。它恢复的是有本地证据支持的完整原装插件集合，包括但不局限于 Chrome、Computer Use、Browser 等浏览器类插件。
 
 它适用于 Codex 更新、服务商或配置档切换、ChatGPT／API Key 登录方式切换、Codex++ 改写配置、缓存重建、官方 marketplace 注册损坏或安装状态漂移之后出现的插件丢失问题。
 
