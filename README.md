@@ -2,7 +2,7 @@
 
 [简体中文](README.zh-CN.md)
 
-`codex-plugin-restore-skill` repairs a Codex Desktop/CLI failure in which previously installed plugins disappear from the store, installed list, plugin picker, or `@` mentions. It restores the complete evidence-backed set of official plugins—not just browser-related plugins such as Chrome, Computer Use, and Browser.
+`codex-plugin-restore-skill` repairs a Codex Desktop/CLI failure in which previously installed plugins disappear from the store, installed list, plugin picker, or `@` mentions. It restores the complete evidence-backed set of official plugins, including but not limited to browser-related plugins such as Chrome, Computer Use, and Browser.
 
 The skill is designed for failures after Codex updates, provider or profile switches, ChatGPT/API-key transitions, Codex++ changes, cache rebuilds, broken marketplace registrations, or configuration drift.
 
