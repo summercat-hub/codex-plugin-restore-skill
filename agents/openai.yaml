@@ -1,0 +1,4 @@
+interface:
+  display_name: "Codex Plugin Restore"
+  short_description: "Audit and restore every missing installed Codex plugin"
+  default_prompt: "Use $codex-plugin-restore-skill to audit all prior-installed Codex plugins and safely restore every missing one."
