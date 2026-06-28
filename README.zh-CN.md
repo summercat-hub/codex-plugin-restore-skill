@@ -2,7 +2,7 @@
 
 [English](README.md)
 
-`codex-plugin-restore-skill` 用来处理 Codex Desktop／CLI 中“插件明明安装过，却突然不显示”的问题。无论插件是从商店、已安装列表、插件选择器，还是 `@` 提及列表中消失，它都会根据本地留下的安装记录找回完整清单。
+`codex-plugin-restore-skill` 用来处理 Codex Desktop/CLI 中“插件明明安装过，却突然不显示”的问题。无论插件是从商店、已安装列表、插件选择器，还是 `@` 提及列表中消失，它都会根据本地留下的安装记录找回完整清单。
 
 修复范围包括但不局限于 Chrome、Computer Use、Browser 等浏览器类插件。只要能找到可靠的安装证据，Documents、PDF、Spreadsheets、Presentations、Template Creator、GitHub 集成等官方插件也会一并检查。
 
