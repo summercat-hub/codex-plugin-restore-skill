@@ -21,7 +21,15 @@ function Invoke-ExternalCommand {
     $info.CreateNoWindow = $true
     $info.RedirectStandardOutput = $true
     $info.RedirectStandardError = $true
-    foreach ($argument in $Arguments) { [void]$info.ArgumentList.Add($argument) }
+    if ($null -ne $info.PSObject.Properties['ArgumentList']) {
+        foreach ($argument in $Arguments) { [void]$info.ArgumentList.Add($argument) }
+    }
+    else {
+        # Windows PowerShell 5.1 does not expose ProcessStartInfo.ArgumentList.
+        # The Codex arguments used here contain no spaces or quotes, so the
+        # legacy Arguments property is safe and keeps the inspector compatible.
+        $info.Arguments = $Arguments -join ' '
+    }
 
     $process = [System.Diagnostics.Process]::new()
     $process.StartInfo = $info
